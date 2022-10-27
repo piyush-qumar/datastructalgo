@@ -4,6 +4,9 @@ int main()
 {
     int x;
     cin>>x;
+    if(x==1){
+    cout<<2;
+    return 1;}
     x=x-2;
     int t1=2;
     int t2=8;
