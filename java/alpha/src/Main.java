@@ -1,25 +1,26 @@
 import java.util.Scanner;
 import java.io.*;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        short a=344;
-        int x=6;
-        float f=456.7f;
-        double d=45.65456;
-        char ch='A';
-        long l=43234l;
-        
-
-
         // int m1,m2,m3;
         Scanner s = new Scanner(System.in);
-        int m1 = s.nextInt();
-        int m2 = s.nextInt();
-        int m3 = s.nextInt();
-        int sum=m1+m2+m3;
-        System.out.println((sum/3)*1);
-        
+        float in = s.nextFloat();
+        double miles = (in / 1.609);
+        System.out.println(miles);
+        // String str=s.next();
+        // System.out.println("hello "+str+" have a nice day");
+        // int a=s.nextInt();
+        // int b=s.nextInt();
+        // int c=s.nextInt();
+        // int sum=a+b+c;
+        // boolean b1=s.hasNextInt();
+        // System.out.println(b1);
+        // int m3 = s.nextInt();
+        // System.out.println(m3);
+        // String str=s.next();
+        // System.out.println(sum);
 
     }
 }
