@@ -7,6 +7,7 @@ void swap(int a, int b)
     a = b;
     b = temp;
     cout << a << " " << b;
+    cout << endl;
 }
 void swap(double *a, double *b)
 {
