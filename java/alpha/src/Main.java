@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.io.*;
+//import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,6 +7,7 @@ public class Main {
         // int m1,m2,m3;
         Scanner s = new Scanner(System.in);
         float in = s.nextFloat();
+        s.close();
         double miles = (in / 1.609);
         System.out.println(miles);
         // String str=s.next();

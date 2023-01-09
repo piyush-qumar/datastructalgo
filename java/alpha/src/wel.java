@@ -8,6 +8,7 @@ public class wel {
         ArrayList<String> ar = new ArrayList<String>();
         Scanner sc = new Scanner(System.in);
         String line = sc.nextLine();
+        sc.close();
         Pattern p = Pattern.compile("\"([^\"]*)\"");
         Matcher m = p.matcher(line);
         while (m.find()) {

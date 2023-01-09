@@ -6,6 +6,7 @@ public class patt {
     Scanner sc=new Scanner(System.in);
     ArrayList<String> ar = new ArrayList<String>();
     String line=sc.nextLine();
+    sc.close();
     ar.add(line);
     name.put("name", ar.get(0));
     System.out.println(name); 
