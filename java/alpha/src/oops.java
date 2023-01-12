@@ -46,12 +46,9 @@ class Branch extends Bank {
     }
 
 }
-public  enum stat{
-    ACTIVE, INACTIVE
-}
 
 class Customer extends Branch {
-   
+
     private String type;
     private String status;
     private Long accNo;
@@ -174,16 +171,15 @@ class Account extends Customer {
         System.out.println("Enter the account type");
         String type = sc.next();
         setType(type);
-        try{
-        System.out.println("Enter the status");
-        String status = sc.next();
-        if((status.equals("ACTIVE")) ||(status.equals("INACTIVE")) )
-        setStatus(status);
-        }
-        catch(Exception e){
+        try {
+            System.out.println("Enter the status");
+            String status = sc.next();
+            if ((status.equalsIgnoreCase("ACTIVE")) || (status.equalsIgnoreCase("INACTIVE")))
+                setStatus(status);
+        } catch (Exception e) {
             System.out.println("Invalid status");
         }
-        //sc.close();
+        // sc.close();
     }
 
     protected boolean get_details(Long accNo) {
