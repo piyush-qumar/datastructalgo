@@ -10,7 +10,7 @@ public class Hashh {
         int n;
         Scanner sc = new Scanner(System.in);
         ArrayList<String> str = new ArrayList<String>();
-        HashMap<String, HashMap<String, String>> hm = new HashMap<String, HashMap<String, String>>();
+        HashMap<String, ArrayList<HashMap<String,String>>> hm = new HashMap<>();
         HashMap<String, String> hm1 = new HashMap<String, String>();
         System.out.println("Enter the number of employees");
         n = sc.nextInt();
@@ -23,23 +23,12 @@ public class Hashh {
             System.out.println(str);
             hm1.put(str.get(i), id);
         }
-        // System.out.println(str);
-        // for (String s : str) {
-        // hm1.put(s, s.length());
-        // }
+
         System.out.println(hm1);
-        // for (int i = 0; i < n; i++) {
+
         System.out.println("Enter the company name");
         String cname = sc.next();
-        // System.out.println("Enter the employee name");
-        // String name = sc.next();
-        // System.out.println("Enter the employee id");
-        // String id = sc.next();
-        // hm1.put("Employee Name", name);
-        // hm1.put("Employee Id", id);
         hm.put(cname, hm1);
-        // }
-        // // System.out.println(hm1);
         System.out.println(hm);
         sc.close();
     }
