@@ -10,7 +10,7 @@ public class Hashh {
         int n;
         Scanner sc = new Scanner(System.in);
         ArrayList<String> str = new ArrayList<String>();
-        HashMap<String, ArrayList<HashMap<String,String>>> hm = new HashMap<>();
+        HashMap<String, HashMap<String, String>> hm = new HashMap<String, HashMap<String, String>>();
         HashMap<String, String> hm1 = new HashMap<String, String>();
         System.out.println("Enter the number of employees");
         n = sc.nextInt();
