@@ -15,5 +15,7 @@ public class pattt {
         }
         name.put("name", ar.get(0));
         System.out.println(name);
+    sc.close();
     }
+
 }
