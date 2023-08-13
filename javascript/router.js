@@ -1,6 +1,6 @@
-const express=require("express");
-const router=express.Router();
-const control=require('./ex');
+const express = require("express");
+const router = express.Router();
+const control = require('./ex');
 router.route('/api/item/create').post(control.createItem);
 router.route('/api/item/:id').get(control.getItem);
 router.route('/api/item/:id').patch(control.updateItem);
@@ -9,4 +9,4 @@ router.route('/api/item/:id').delete(control.deleteItem);
 // router.route('/api/item/:id').get(ex.getItem);
 // router.route('/api/item/:id').patch(ex.updateItem);
 // router.route('/api/item/:id').delete(ex.deleteItem);
-module.exports=router;
+module.exports = router;
