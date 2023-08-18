@@ -75,7 +75,7 @@ int main()
         cin >> n;
         string contact[n], s;
         for (int i = 0; i < n; i++)
-        
+
             cin >> contact[i];
         cin >> s;
 
