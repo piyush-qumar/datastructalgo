@@ -29,4 +29,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/piyush-qumar/datastructalgo/tree/master/0208-implement-trie-prefix-tree) |
+## Math
+|  |
+| ------- |
+| [2608-count-the-digits-that-divide-a-number](https://github.com/piyush-qumar/datastructalgo/tree/master/2608-count-the-digits-that-divide-a-number) |
 <!---LeetCode Topics End-->
