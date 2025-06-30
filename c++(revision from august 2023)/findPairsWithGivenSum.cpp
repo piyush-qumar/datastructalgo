@@ -1,7 +1,7 @@
 //{ Driver Code Starts
 //Initial Template for C++
 
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 class Node
