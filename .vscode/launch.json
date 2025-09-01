@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "MergeSort",
+      "request": "launch",
+      "mainClass": "MergeSort",
+      "projectName": "datastructalgo_943b961b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "datastructalgo_943b961b"
+    },
+    {
       "name": "Debug C++ in VSCode terminal",
       "type": "cppdbg",
       "request": "launch",
@@ -9,8 +23,8 @@
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
-      "externalConsole": true,  // ✅ Run in VS Code’s built-in terminal
-      "MIMode": "lldb",          // default on macOS
+      "externalConsole": true,
+      "MIMode": "lldb",
       "preLaunchTask": "build active file",
       "setupCommands": [
         {
