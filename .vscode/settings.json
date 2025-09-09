@@ -32,5 +32,11 @@
         "type_traits": "cpp",
         "valarray": "cpp",
         "variant": "cpp"
+    },
+
+    // 🚀 Add this part 👇
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
     }
 }

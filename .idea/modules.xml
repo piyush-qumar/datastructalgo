@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java/alpha/Test/Test.iml" filepath="$PROJECT_DIR$/java/alpha/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/alpha/alpha.iml" filepath="$PROJECT_DIR$/java/alpha/alpha.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/datastructalgo.iml" filepath="$PROJECT_DIR$/.idea/datastructalgo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/alpha/out/out.iml" filepath="$PROJECT_DIR$/java/alpha/out/out.iml" />
