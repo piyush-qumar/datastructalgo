@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Scanner;
 class HighFreq {
-    public static int solution(int[] nums) {
+    public int solution(int[] nums) {
         int res = 0;
         HashMap<Integer,Integer> res1 = new HashMap<>();
         for(int num : nums) {
@@ -37,5 +37,6 @@ public class HighFrequency {
         }
         HighFreq sol = new HighFreq();
         System.out.println(sol.solution(nums));
+        System.out.println("Hello");
     }
 }
