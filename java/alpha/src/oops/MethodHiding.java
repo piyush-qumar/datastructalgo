@@ -6,8 +6,6 @@ public class MethodHiding {
         Parent d = new Child();
         Child c = new Child();
         p.display();
-        c.display();
         d.display();
-        Child.dispaly();
     }
 }
