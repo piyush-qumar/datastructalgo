@@ -1,14 +1,32 @@
 package bit_manipulation;
 
-import java.util.Scanner;
+import java.util.*;
+
 class SingleNum1Sol{
-    public int solution(int[] n) {
+    public List<Integer> solution(int[] n) {
+        //do it using map data structure
+        Map<Integer, Integer> mp = new HashMap<>();
         int s = n.length;
-        int res = 0;
+        List<Integer> ls = new ArrayList<>();
+        int count =0;
         for(int i=0;i<s;i++) {
-            res = res ^ n[i];
+            mp.put(n[i], mp.getOrDefault(n[i],0)+1);
         }
-        return res;
+
+        for(int key: mp.keySet()) {
+            if(mp.get(key) == 1) {
+                count++;
+                ls.add(key);
+            }
+        }
+//        int[] res = new int[count];
+//        int c = 0;
+//        for(int key: mp.keySet()) {
+//            if(mp.get(key) == 1) {
+//                res[c++] = key;
+//            }
+//        }
+        return ls;
     }
 }
 
