@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/piyush-qumar/datastructalgo/tree/master/0001-two-sum) |
 | [0053-maximum-subarray](https://github.com/piyush-qumar/datastructalgo/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/piyush-qumar/datastructalgo/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0204-count-primes](https://github.com/piyush-qumar/datastructalgo/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/piyush-qumar/datastructalgo/tree/master/0217-contains-duplicate) |
 ## Hash Table
 |  |
@@ -37,4 +38,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/piyush-qumar/datastructalgo/tree/master/0020-valid-parentheses) |
+## Math
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/piyush-qumar/datastructalgo/tree/master/0204-count-primes) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/piyush-qumar/datastructalgo/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/piyush-qumar/datastructalgo/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
