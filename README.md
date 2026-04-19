@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/piyush-qumar/datastructalgo/tree/master/0001-two-sum) |
 | [0053-maximum-subarray](https://github.com/piyush-qumar/datastructalgo/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/piyush-qumar/datastructalgo/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/piyush-qumar/datastructalgo/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/piyush-qumar/datastructalgo/tree/master/0136-single-number) |
 | [0204-count-primes](https://github.com/piyush-qumar/datastructalgo/tree/master/0204-count-primes) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/piyush-qumar/datastructalgo/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/piyush-qumar/datastructalgo/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/piyush-qumar/datastructalgo/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Divide and Conquer
 |  |
@@ -75,4 +77,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/piyush-qumar/datastructalgo/tree/master/0743-network-delay-time) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/piyush-qumar/datastructalgo/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
