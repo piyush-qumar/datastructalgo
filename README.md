@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/piyush-qumar/datastructalgo/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/piyush-qumar/datastructalgo/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/piyush-qumar/datastructalgo/tree/master/0136-single-number) |
+| [0200-number-of-islands](https://github.com/piyush-qumar/datastructalgo/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/piyush-qumar/datastructalgo/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/piyush-qumar/datastructalgo/tree/master/0217-contains-duplicate) |
 ## Hash Table
@@ -62,10 +63,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/piyush-qumar/datastructalgo/tree/master/0200-number-of-islands) |
 | [0743-network-delay-time](https://github.com/piyush-qumar/datastructalgo/tree/master/0743-network-delay-time) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/piyush-qumar/datastructalgo/tree/master/0200-number-of-islands) |
 | [0743-network-delay-time](https://github.com/piyush-qumar/datastructalgo/tree/master/0743-network-delay-time) |
 ## Graph Theory
 |  |
@@ -87,4 +90,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/piyush-qumar/datastructalgo/tree/master/0062-unique-paths) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/piyush-qumar/datastructalgo/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/piyush-qumar/datastructalgo/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
