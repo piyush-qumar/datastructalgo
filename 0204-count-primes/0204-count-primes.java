@@ -1,17 +1,18 @@
 class Solution {
     public int countPrimes(int n) {
         if(n<2) return 0;
-        boolean[] composit = new boolean[n]; // n because strictly less than n is expected
-        for(int i=2;(long)i*i<=n;i++) {
-            if(!composit[i]) {
-                for(int j = i*i; j<n;j+=i) {
-                    composit[j] = true;
+        boolean mp[] = new boolean[n]; // perhaps we are sticking to strictly lessa than n
+        for(int i=2;i*i<=n;i++) {
+            if(!mp[i]) {
+                for(int j=i*i;j<n;j+=i) {
+                    mp[j] = true;
                 }
             }
         }
         int count =0;
-        for(int i=2;i<n;i++) {
-            if(!composit[i]) count++;
+        for(int x = 2;x<n;x++) {
+            if(!mp[x])
+            count++;
         }
         return count;
     }
