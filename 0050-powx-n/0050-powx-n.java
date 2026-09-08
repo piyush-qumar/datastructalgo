@@ -1,31 +1,28 @@
 class Solution {
     public double myPow(double x, int n) {
-        if(n==0) return 1.0;
-        //super naive approach
-        //return Math.pow(x, n);
-        //the acceptable way is to shadow the behaviour of the pow
-        long N=n;
+        if(n==0) return 1;
+
+
+        long K = n;
         if(n<0) {
-            x = 1/x;
-            N = -N;
+            x= 1/x;
+            K = -K;
         }
-        return fastpow(x, N);
+        return powfunc(x, K);
     }
-        
-        private double fastpow(double x, long N) {
 
-            if(N==0) return 1.0;
-            double ans = 1.0;
-            double half = fastpow(x, N/2);
+    private double powfunc(double x, long k) {
+        if(k == 0) return 1.0;
 
-            if(N%2==0) {
-                ans = ans * half * half;
-            }
-            if(N%2!=0) {
-                ans = ans * half * half * x;
-            }
+        double ans = powfunc(x, k/2);
 
-            return ans;
+        double result = 1.0;
+        if(k%2==0) {
+            result = result * ans * ans;
         }
-        
+        else
+            result = result * ans * ans * x;
+
+            return result;
+    }
 }
