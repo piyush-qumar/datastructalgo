@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/piyush-qumar/datastructalgo/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/piyush-qumar/datastructalgo/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/piyush-qumar/datastructalgo/tree/master/0217-contains-duplicate) |
+| [0485-max-consecutive-ones](https://github.com/piyush-qumar/datastructalgo/tree/master/0485-max-consecutive-ones) |
 ## Hash Table
 |  |
 | ------- |
