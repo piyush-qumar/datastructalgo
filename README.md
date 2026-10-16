@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/piyush-qumar/datastructalgo/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/piyush-qumar/datastructalgo/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/piyush-qumar/datastructalgo/tree/master/0217-contains-duplicate) |
+| [0283-move-zeroes](https://github.com/piyush-qumar/datastructalgo/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/piyush-qumar/datastructalgo/tree/master/0485-max-consecutive-ones) |
 ## Hash Table
 |  |
@@ -132,4 +133,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1071-greatest-common-divisor-of-strings](https://github.com/piyush-qumar/datastructalgo/tree/master/1071-greatest-common-divisor-of-strings) |
+## Two Pointers
+|  |
+| ------- |
+| [0283-move-zeroes](https://github.com/piyush-qumar/datastructalgo/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
